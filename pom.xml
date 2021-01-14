@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.spring.javaformat</groupId>
 	<artifactId>spring-javaformat-build</artifactId>
-	<version>0.0.28-SNAPSHOT</version>
+	<version>0.0.27-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Spring JavaFormat Build</name>
 	<description>Spring JavaFormat</description>
@@ -40,7 +40,7 @@
 		<assertj.version>3.8.0</assertj.version>
 		<checkstyle.version>8.32</checkstyle.version>
 		<gradle.version>3.4</gradle.version>
-		<groovy.version>2.4.21</groovy.version>
+		<groovy.version>2.4.7</groovy.version>
 		<maven-core.version>3.5.0</maven-core.version>
 		<maven-plugin-api.version>${maven-core.version}</maven-plugin-api.version>
 		<maven-plugin-annotations.version>3.5</maven-plugin-annotations.version>
