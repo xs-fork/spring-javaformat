@@ -7,8 +7,7 @@
 	<idea-version since-build="173.0"/>
 	<description>
 		<![CDATA[
-		A source formatter that applies wrapping and whitespace conventions to
-		provide a consistent “Spring” style.
+		A source formatter that applies wrapping and whitespace conventions to provide a consistent “Spring” style.
 
 		This plug-in depends on spring-javaformat-maven-plugin or spring-javaformat-gradle-plugin, and the dependency plug-in must be added to your project to be effective.
 		]]>
