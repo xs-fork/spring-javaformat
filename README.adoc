@@ -18,7 +18,7 @@ You can't configure the plugin conventions to match your style!
 [source,java]
 ----
 // first change or install jdk 11 on system environment
-// install download intellij.tar.gz、intellij-source.zip
+// maven install download intellij.tar.gz、intellij-source.zip
 mvn clean install -DskipTests=true -P macxos,skipTests
 ----
 
