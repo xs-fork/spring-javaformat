@@ -1,11 +1,25 @@
 <idea-plugin url="https://github.com/spring-io/spring-javaformat">
 	<id>spring-javaformat</id>
 	<name>Spring Javaformat</name>
-	<description>A source formatter that applies wrapping and whitespace conventions to
-		provide a consistent “Spring” style.
-	</description>
-	<version>${project.version}</version>
 	<vendor url="https://spring.io">Spring Team</vendor>
+	<version>${project.version}</version>
+	<!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+	<idea-version since-build="173.0"/>
+	<description>
+		<![CDATA[
+		A source formatter that applies wrapping and whitespace conventions to
+		provide a consistent “Spring” style.
+		]]>
+	</description>
+	<change-notes>
+		<![CDATA[
+       <h4>0.0.27</h4>
+      <ul>
+          <li>Upgrade to Eclipse 2020-12 #254</li>
+      </ul>
+      ]]>
+	</change-notes>
+	<category>Formatting</category>
 	<depends>org.jetbrains.idea.maven</depends>
 	<depends>org.jetbrains.plugins.gradle</depends>
 	<extensions defaultExtensionNs="com.intellij">

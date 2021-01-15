@@ -13,6 +13,15 @@ Since the aim of this project is to provide consistency, each plugin is not gene
 You need to change your code to match the required conventions.
 You can't configure the plugin conventions to match your style!
 
+=== Compile Environment
+
+[source,java]
+----
+// first change or install jdk 11 on system environment
+// install download intellij.tar.gz、intellij-source.zip
+mvn clean install -DskipTests=true -P macxos,skipTests
+----
+
 === Maven
 
 ==== Source Formatting
