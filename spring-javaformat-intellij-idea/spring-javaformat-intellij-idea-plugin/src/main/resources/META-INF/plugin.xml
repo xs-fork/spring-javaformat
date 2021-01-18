@@ -4,7 +4,7 @@
 	<vendor url="https://spring.io">Spring Team</vendor>
 	<version>${project.version}</version>
 	<!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-	<idea-version since-build="173.0"/>
+	<idea-version since-build="203"/>
 	<description>
 		<![CDATA[
 		A source formatter that applies wrapping and whitespace conventions to
